@@ -1,0 +1,89 @@
+/* 快適動画モード用のCSSスタイル */
+
+/* 快適モード時の基本スタイル */
+.comfort-mode-active {
+  overflow: hidden !important;
+}
+
+/* 解除ボタンのスタイル */
+#comfort-mode-exit-button {
+  position: fixed !important;
+  bottom: 15px !important;
+  right: 15px !important;
+  background: transparent !important; /* デフォルトは背景なし */
+  color: rgba(255, 255, 255, 0.2) !important; /* デフォルトはより薄く */
+  width: 28px !important;
+  height: 28px !important;
+  border-radius: 50% !important;
+  cursor: pointer !important;
+  z-index: 2147483648 !important; /* 最大値+1で解除ボタンを最前面に */
+  font-family: Arial, sans-serif !important;
+  font-size: 18px !important;
+  font-weight: bold !important;
+  user-select: none !important;
+  pointer-events: auto !important;
+  border: 1px solid transparent !important; /* デフォルトは境界線なし */
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: all 0.2s ease !important;
+}
+
+/* 動画エリア内でのボタン透明度 */
+body.comfort-mode-active.video-area-hovered #comfort-mode-exit-button {
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: rgba(255, 255, 255, 0.4) !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* コントロール有効時のボタン透明度（最も濃く） */
+body.comfort-mode-active.video-controls-enabled #comfort-mode-exit-button {
+  background: rgba(255, 255, 255, 0.15) !important;
+  color: rgba(255, 255, 255, 0.6) !important;
+  border-color: rgba(255, 255, 255, 0.15) !important;
+}
+
+/* ホバー効果はJavaScriptで制御するため、CSS側は無効化 */
+#comfort-mode-exit-button:active {
+  background: rgba(255, 255, 255, 0.3) !important;
+  transform: scale(0.95) !important;
+}
+
+/* 快適モード時のマウスイベント無効化 */
+.comfort-mode-no-interaction * {
+  pointer-events: none !important;
+}
+
+.comfort-mode-no-interaction #comfort-mode-exit-button {
+  pointer-events: auto !important;
+}
+
+/* 動画の最大化スタイル */
+.comfort-mode-video {
+  z-index: 2147483647 !important; /* 32bit整数の最大値で動画を最前面に */
+  background: black !important;
+}
+
+/* 快適モード時のz-index制御 */
+body.comfort-mode-active *:not(.comfort-mode-video):not(#comfort-mode-exit-button) {
+  z-index: 999998 !important; /* 他の要素のz-indexを制限 */
+}
+
+/* 動画コントロールが有効な場合のスタイル */
+body.comfort-mode-active.video-controls-enabled video {
+  pointer-events: auto !important;
+}
+
+body.comfort-mode-active.video-controls-enabled video * {
+  pointer-events: auto !important;
+}
+
+/* スクロールバーを隠す */
+.comfort-mode-active::-webkit-scrollbar {
+  display: none !important;
+}
+
+.comfort-mode-active {
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+}
