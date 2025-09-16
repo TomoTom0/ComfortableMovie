@@ -13,6 +13,15 @@
 
 ## インストール方法
 
+### 方法1: ビルド済みパッケージ（推奨）
+1. [Releases](https://github.com/TomoTom0/ComfortableMovie/releases)から`comfort-movie-extension.zip`をダウンロード
+2. ZIPファイルを適当な場所に展開
+3. Chromeで `chrome://extensions/` を開く
+4. 「デベロッパーモード」をオンにする
+5. 「パッケージ化されていない拡張機能を読み込む」をクリック
+6. 展開したフォルダを選択
+
+### 方法2: 自分でビルド（開発者向け）
 1. このプロジェクトをダウンロードまたはクローン
 2. `npm install` で依存関係をインストール
 3. `npm run build` でビルド

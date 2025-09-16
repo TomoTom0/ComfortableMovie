@@ -9,7 +9,7 @@
 node_modules/
 npm-debug.log*
 
-# Build output
+# Build output (exclude dist/ but include build/ for releases)
 dist/
 
 # OS
