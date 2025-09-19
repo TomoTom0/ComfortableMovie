@@ -1,0 +1,13 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- 拡張機能C: 歯車 + 画面 -->
+
+  <!-- 歯車（拡張機能の象徴） -->
+  <path d="M64 25 L69 35 L80 33 L83 44 L94 49 L89 59 L94 69 L83 74 L80 85 L69 83 L64 93 L59 83 L48 85 L45 74 L34 69 L39 59 L34 49 L45 44 L48 33 L59 35 Z" fill="#2d5aa0" opacity="0.8"/>
+
+  <!-- 歯車の中心穴 -->
+  <circle cx="64" cy="59" r="8" fill="white"/>
+
+  <!-- 中央に画面アイコン -->
+  <rect x="56" y="53" width="16" height="12" rx="1" fill="#2d5aa0"/>
+  <rect x="58" y="55" width="12" height="8" fill="white"/>
+</svg>

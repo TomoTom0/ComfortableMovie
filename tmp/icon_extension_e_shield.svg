@@ -1,0 +1,13 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- 拡張機能E: シールド型（保護機能を表現） -->
+
+  <!-- シールドの形状 -->
+  <path d="M64 20 C80 25 90 30 100 40 C100 60 100 80 90 95 C80 105 64 110 64 110 C64 110 48 105 38 95 C28 80 28 60 28 40 C38 30 48 25 64 20 Z" fill="#2d5aa0"/>
+
+  <!-- 内部に画面保護のシンボル -->
+  <rect x="50" y="45" width="28" height="20" rx="2" fill="white"/>
+  <rect x="52" y="47" width="24" height="16" fill="#2d5aa0"/>
+
+  <!-- チェックマーク（保護されている） -->
+  <path d="M56 55 L60 59 L72 47" stroke="white" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- 案F: 没入感を表現 -->
+
+  <!-- 外側のフレーム（通常画面） -->
+  <rect x="20" y="30" width="88" height="68" rx="4" fill="none" stroke="#cccccc" stroke-width="2" opacity="0.4"/>
+
+  <!-- 拡大する動画 -->
+  <rect x="30" y="40" width="68" height="48" rx="3" fill="#2d5aa0" opacity="0.8"/>
+
+  <!-- 拡大の矢印 -->
+  <path d="M35 45 L25 35 M25 35 L35 35 M25 35 L25 45" stroke="#2d5aa0" stroke-width="2" fill="none"/>
+  <path d="M93 45 L103 35 M103 35 L93 35 M103 35 L103 45" stroke="#2d5aa0" stroke-width="2" fill="none"/>
+  <path d="M35 83 L25 93 M25 93 L35 93 M25 93 L25 83" stroke="#2d5aa0" stroke-width="2" fill="none"/>
+  <path d="M93 83 L103 93 M103 93 L93 93 M103 93 L103 83" stroke="#2d5aa0" stroke-width="2" fill="none"/>
+
+  <!-- 集中線（外側から内側へ） -->
+  <path d="M10 20 L35 50" stroke="#2d5aa0" stroke-width="1" opacity="0.3"/>
+  <path d="M118 20 L93 50" stroke="#2d5aa0" stroke-width="1" opacity="0.3"/>
+  <path d="M10 108 L35 78" stroke="#2d5aa0" stroke-width="1" opacity="0.3"/>
+  <path d="M118 108 L93 78" stroke="#2d5aa0" stroke-width="1" opacity="0.3"/>
+</svg>

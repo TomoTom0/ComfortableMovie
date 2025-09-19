@@ -1,0 +1,22 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- 案C: 邪魔な要素の排除イメージ -->
+
+  <!-- 中央の動画フレーム -->
+  <rect x="32" y="40" width="64" height="48" rx="4" fill="none" stroke="#2d5aa0" stroke-width="3"/>
+
+  <!-- 消される邪魔な要素（左上） -->
+  <rect x="10" y="15" width="20" height="15" fill="#cccccc" opacity="0.3"/>
+  <path d="M12 17 L28 30 M28 17 L12 30" stroke="#ff4444" stroke-width="2"/>
+
+  <!-- 消される邪魔な要素（右上） -->
+  <rect x="98" y="15" width="20" height="15" fill="#cccccc" opacity="0.3"/>
+  <path d="M100 17 L116 30 M116 17 L100 30" stroke="#ff4444" stroke-width="2"/>
+
+  <!-- 消される邪魔な要素（左下） -->
+  <rect x="10" y="98" width="20" height="15" fill="#cccccc" opacity="0.3"/>
+  <path d="M12 100 L28 113 M28 100 L12 113" stroke="#ff4444" stroke-width="2"/>
+
+  <!-- 消される邪魔な要素（右下） -->
+  <rect x="98" y="98" width="20" height="15" fill="#cccccc" opacity="0.3"/>
+  <path d="M100 100 L116 113 M116 100 L100 113" stroke="#ff4444" stroke-width="2"/>
+</svg>

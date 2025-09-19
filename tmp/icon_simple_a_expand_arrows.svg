@@ -1,0 +1,15 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- シンプルA: 4方向への拡大矢印のみ -->
+
+  <!-- 上矢印 -->
+  <path d="M64 20 L54 30 L74 30 Z" fill="#2d5aa0"/>
+
+  <!-- 下矢印 -->
+  <path d="M64 108 L54 98 L74 98 Z" fill="#2d5aa0"/>
+
+  <!-- 左矢印 -->
+  <path d="M20 64 L30 54 L30 74 Z" fill="#2d5aa0"/>
+
+  <!-- 右矢印 -->
+  <path d="M108 64 L98 54 L98 74 Z" fill="#2d5aa0"/>
+</svg>

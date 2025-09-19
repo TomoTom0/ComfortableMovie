@@ -1,0 +1,155 @@
+{
+  "extensionName": {
+    "message": "Comfort Movie"
+  },
+  "extensionDescription": {
+    "message": "快適な動画視聴環境を提供するChrome拡張機能。動画を最大化し、スマートなコントロール機能で集中して視聴できます。"
+  },
+  "contextMenuToggle": {
+    "message": "快適動画モードを切り替え"
+  },
+  "contextMenuVideoToggle": {
+    "message": "🎬 この動画を快適モードで表示"
+  },
+  "optionsTitle": {
+    "message": "設定"
+  },
+  "basicSettings": {
+    "message": "基本設定"
+  },
+  "menuSettings": {
+    "message": "メニュー設定"
+  },
+  "siteSettings": {
+    "message": "サイト別設定"
+  },
+  "displaySettings": {
+    "message": "表示設定"
+  },
+  "shortcuts": {
+    "message": "ショートカット"
+  },
+  "hoverDetectionTime": {
+    "message": "ホバー検出時間"
+  },
+  "hoverDetectionTimeDesc": {
+    "message": "動画下部にマウスを置いてからコントロールが有効になるまでの時間"
+  },
+  "controlsDisableTime": {
+    "message": "コントロール無効化時間"
+  },
+  "controlsDisableTimeDesc": {
+    "message": "動画から離れてからコントロールが無効になるまでの時間"
+  },
+  "showInlineButton": {
+    "message": "動画プレーヤー内にボタンを表示"
+  },
+  "showInlineButtonDesc": {
+    "message": "YouTubeやAmazon Prime VideoなどでプレーヤーコントロールにComfort Movieボタンを表示"
+  },
+  "pausedControlsEnabled": {
+    "message": "動画停止中は常にコントロール有効"
+  },
+  "pausedControlsEnabledDesc": {
+    "message": "動画が一時停止中の場合、ホバー検出せずに即座にコントロールを有効化"
+  },
+  "showContextMenu": {
+    "message": "右クリックメニューを表示"
+  },
+  "showContextMenuDesc": {
+    "message": "ページや動画を右クリックした時にComfort Movieのメニューを表示"
+  },
+  "showVideoContextMenu": {
+    "message": "動画専用メニューを表示"
+  },
+  "showVideoContextMenuDesc": {
+    "message": "video要素を右クリックした時に専用の快適モードメニューを表示"
+  },
+  "enabledSites": {
+    "message": "有効なサイト"
+  },
+  "enabledSitesDesc": {
+    "message": "Comfort Movieを有効にするサイトを選択"
+  },
+  "enableYoutube": {
+    "message": "YouTube"
+  },
+  "enablePrimeVideo": {
+    "message": "Amazon Prime Video"
+  },
+  "enableAllSites": {
+    "message": "すべてのサイト"
+  },
+  "exitButtonOpacity": {
+    "message": "解除ボタンの透明度"
+  },
+  "exitButtonOpacityDesc": {
+    "message": "快適モード中の右下解除ボタンの透明度"
+  },
+  "saveButton": {
+    "message": "設定を保存"
+  },
+  "resetButton": {
+    "message": "デフォルトに戻す"
+  },
+  "version": {
+    "message": "Comfort Movie v1.0.0"
+  },
+  "subtitle": {
+    "message": "快適な動画視聴環境を提供するChrome拡張機能"
+  },
+  "shortcutEsc": {
+    "message": "快適モードを解除"
+  },
+  "shortcutRightClick": {
+    "message": "コンテキストメニューから切り替え"
+  },
+  "shortcutExtensionIcon": {
+    "message": "ツールバーアイコンから切り替え"
+  },
+  "comfortModeTooltip": {
+    "message": "快適動画モード"
+  },
+  "comfortModeTooltipOn": {
+    "message": "快適動画モード（オン）"
+  },
+  "comfortModeExitTooltip": {
+    "message": "快適モード解除"
+  },
+  "settingsSaved": {
+    "message": "設定を保存しました"
+  },
+  "settingsReset": {
+    "message": "設定をデフォルトに戻しました"
+  },
+  "settingsLoadError": {
+    "message": "設定の読み込みに失敗しました"
+  },
+  "settingsSaveError": {
+    "message": "設定の保存に失敗しました"
+  },
+  "settingsResetError": {
+    "message": "設定のリセットに失敗しました"
+  },
+  "resetConfirm": {
+    "message": "設定をデフォルトに戻しますか？"
+  },
+  "noVideoFound": {
+    "message": "動画が見つかりません"
+  },
+  "allSites": {
+    "message": "すべてのサイト"
+  },
+  "rightClick": {
+    "message": "右クリック"
+  },
+  "extensionIcon": {
+    "message": "拡張機能アイコン"
+  },
+  "secondsUnit": {
+    "message": "秒"
+  },
+  "percentUnit": {
+    "message": "%"
+  }
+}

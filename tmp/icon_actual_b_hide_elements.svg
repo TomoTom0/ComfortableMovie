@@ -1,0 +1,23 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- 実際の操作B: 他の要素を隠して動画だけを表示 -->
+
+  <!-- 中央の動画 -->
+  <rect x="32" y="32" width="64" height="64" rx="4" fill="#2d5aa0" opacity="0.9"/>
+
+  <!-- 隠される要素（薄く表示） -->
+  <!-- 上部のナビゲーション -->
+  <rect x="10" y="10" width="108" height="12" rx="2" fill="#cccccc" opacity="0.3"/>
+  <path d="M12 14 L28 18 M28 14 L12 18" stroke="#ff4444" stroke-width="1.5" opacity="0.7"/>
+
+  <!-- 左サイドバー -->
+  <rect x="10" y="25" width="15" height="80" rx="2" fill="#cccccc" opacity="0.3"/>
+  <path d="M14 35 L21 42 M21 35 L14 42" stroke="#ff4444" stroke-width="1.5" opacity="0.7"/>
+
+  <!-- 右サイドバー -->
+  <rect x="103" y="25" width="15" height="80" rx="2" fill="#cccccc" opacity="0.3"/>
+  <path d="M107 35 L114 42 M114 35 L107 42" stroke="#ff4444" stroke-width="1.5" opacity="0.7"/>
+
+  <!-- 下部の要素 -->
+  <rect x="10" y="108" width="108" height="10" rx="2" fill="#cccccc" opacity="0.3"/>
+  <path d="M12 111 L28 115 M28 111 L12 115" stroke="#ff4444" stroke-width="1.5" opacity="0.7"/>
+</svg>

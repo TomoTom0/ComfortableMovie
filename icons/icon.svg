@@ -1,0 +1,16 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- プラグイン形状 + C -->
+
+  <!-- プラグインの本体 -->
+  <rect x="40" y="50" width="48" height="40" rx="8" fill="#2d5aa0"/>
+
+  <!-- プラグインのピン -->
+  <rect x="52" y="35" width="6" height="20" rx="3" fill="#2d5aa0"/>
+  <rect x="70" y="35" width="6" height="20" rx="3" fill="#2d5aa0"/>
+
+  <!-- 中央にC（Comfort） -->
+  <path d="M64 65 C58 65 54 69 54 74 C54 79 58 83 64 83" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- 接続を示すライン -->
+  <line x1="64" y1="25" x2="64" y2="35" stroke="#2d5aa0" stroke-width="3"/>
+</svg>

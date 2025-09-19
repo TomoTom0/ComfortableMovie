@@ -1,0 +1,155 @@
+{
+  "extensionName": {
+    "message": "Comfort Movie"
+  },
+  "extensionDescription": {
+    "message": "Chrome extension for comfortable video viewing. Maximizes videos and provides smart control features for focused viewing."
+  },
+  "contextMenuToggle": {
+    "message": "Toggle Comfort Movie Mode"
+  },
+  "contextMenuVideoToggle": {
+    "message": "🎬 Display this video in comfort mode"
+  },
+  "optionsTitle": {
+    "message": "Options"
+  },
+  "basicSettings": {
+    "message": "Basic Settings"
+  },
+  "menuSettings": {
+    "message": "Menu Settings"
+  },
+  "siteSettings": {
+    "message": "Site Settings"
+  },
+  "displaySettings": {
+    "message": "Display Settings"
+  },
+  "shortcuts": {
+    "message": "Shortcuts"
+  },
+  "hoverDetectionTime": {
+    "message": "Hover Detection Time"
+  },
+  "hoverDetectionTimeDesc": {
+    "message": "Time before controls are enabled after hovering over the video bottom area"
+  },
+  "controlsDisableTime": {
+    "message": "Controls Disable Time"
+  },
+  "controlsDisableTimeDesc": {
+    "message": "Time before controls are disabled after leaving the video area"
+  },
+  "showInlineButton": {
+    "message": "Show button in video player"
+  },
+  "showInlineButtonDesc": {
+    "message": "Display Comfort Movie button in player controls on YouTube, Amazon Prime Video, etc."
+  },
+  "pausedControlsEnabled": {
+    "message": "Always enable controls when video is paused"
+  },
+  "pausedControlsEnabledDesc": {
+    "message": "When video is paused, enable controls immediately without hover detection"
+  },
+  "showContextMenu": {
+    "message": "Show context menu"
+  },
+  "showContextMenuDesc": {
+    "message": "Display Comfort Movie menu when right-clicking on pages or videos"
+  },
+  "showVideoContextMenu": {
+    "message": "Show video-specific menu"
+  },
+  "showVideoContextMenuDesc": {
+    "message": "Display dedicated comfort mode menu when right-clicking on video elements"
+  },
+  "enabledSites": {
+    "message": "Enabled Sites"
+  },
+  "enabledSitesDesc": {
+    "message": "Select sites where Comfort Movie should be enabled"
+  },
+  "enableYoutube": {
+    "message": "YouTube"
+  },
+  "enablePrimeVideo": {
+    "message": "Amazon Prime Video"
+  },
+  "enableAllSites": {
+    "message": "All Sites"
+  },
+  "exitButtonOpacity": {
+    "message": "Exit Button Opacity"
+  },
+  "exitButtonOpacityDesc": {
+    "message": "Opacity of the exit button in the bottom-right corner during comfort mode"
+  },
+  "saveButton": {
+    "message": "Save Settings"
+  },
+  "resetButton": {
+    "message": "Reset to Default"
+  },
+  "version": {
+    "message": "Comfort Movie v1.0.0"
+  },
+  "subtitle": {
+    "message": "Chrome extension for comfortable video viewing"
+  },
+  "shortcutEsc": {
+    "message": "Exit comfort mode"
+  },
+  "shortcutRightClick": {
+    "message": "Toggle via context menu"
+  },
+  "shortcutExtensionIcon": {
+    "message": "Toggle via toolbar icon"
+  },
+  "comfortModeTooltip": {
+    "message": "Comfort Movie Mode"
+  },
+  "comfortModeTooltipOn": {
+    "message": "Comfort Movie Mode (On)"
+  },
+  "comfortModeExitTooltip": {
+    "message": "Exit Comfort Mode"
+  },
+  "settingsSaved": {
+    "message": "Settings saved"
+  },
+  "settingsReset": {
+    "message": "Settings reset to default"
+  },
+  "settingsLoadError": {
+    "message": "Failed to load settings"
+  },
+  "settingsSaveError": {
+    "message": "Failed to save settings"
+  },
+  "settingsResetError": {
+    "message": "Failed to reset settings"
+  },
+  "resetConfirm": {
+    "message": "Reset settings to default?"
+  },
+  "noVideoFound": {
+    "message": "No video found"
+  },
+  "allSites": {
+    "message": "All Sites"
+  },
+  "rightClick": {
+    "message": "Right Click"
+  },
+  "extensionIcon": {
+    "message": "Extension Icon"
+  },
+  "secondsUnit": {
+    "message": "s"
+  },
+  "percentUnit": {
+    "message": "%"
+  }
+}

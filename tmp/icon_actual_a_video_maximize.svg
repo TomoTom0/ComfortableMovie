@@ -1,0 +1,22 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- 実際の操作A: 動画を画面全体に拡大 -->
+
+  <!-- 小さい動画フレーム（元の状態） -->
+  <rect x="40" y="45" width="48" height="36" rx="2" fill="none" stroke="#cccccc" stroke-width="2" opacity="0.5"/>
+
+  <!-- 拡大後の動画フレーム -->
+  <rect x="10" y="20" width="108" height="88" rx="4" fill="none" stroke="#2d5aa0" stroke-width="3"/>
+
+  <!-- 拡大を示す矢印 -->
+  <path d="M45 50 L15 25" stroke="#2d5aa0" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M83 50 L113 25" stroke="#2d5aa0" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M45 76 L15 103" stroke="#2d5aa0" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M83 76 L113 103" stroke="#2d5aa0" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <!-- 矢印のマーカー -->
+  <defs>
+    <marker id="arrowhead" markerWidth="6" markerHeight="4" refX="6" refY="2" orient="auto">
+      <polygon points="0 0, 6 2, 0 4" fill="#2d5aa0"/>
+    </marker>
+  </defs>
+</svg>

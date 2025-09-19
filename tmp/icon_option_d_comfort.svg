@@ -1,0 +1,22 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- 案D: 快適さを表現 -->
+
+  <!-- ソファの座面 -->
+  <rect x="25" y="55" width="78" height="25" rx="12" fill="#2d5aa0"/>
+
+  <!-- ソファの背もたれ -->
+  <rect x="30" y="35" width="68" height="25" rx="12" fill="#2d5aa0" opacity="0.8"/>
+
+  <!-- 左の肘掛け -->
+  <rect x="20" y="35" width="15" height="45" rx="7" fill="#2d5aa0" opacity="0.6"/>
+
+  <!-- 右の肘掛け -->
+  <rect x="93" y="35" width="15" height="45" rx="7" fill="#2d5aa0" opacity="0.6"/>
+
+  <!-- ソファの脚 -->
+  <rect x="30" y="80" width="6" height="8" rx="3" fill="#2d5aa0" opacity="0.4"/>
+  <rect x="92" y="80" width="6" height="8" rx="3" fill="#2d5aa0" opacity="0.4"/>
+
+  <!-- 快適さを表すハート（オプション） -->
+  <path d="M64 75 C64 75, 58 70, 54 75 C50 80, 64 88, 64 88 C64 88, 78 80, 74 75 C70 70, 64 75, 64 75 Z" fill="#ff6b6b" opacity="0.6"/>
+</svg>

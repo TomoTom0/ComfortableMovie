@@ -1,0 +1,18 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- 案A: シンプルな最大化アイコン -->
+
+  <!-- 左上矢印 -->
+  <path d="M20 20 L20 40 L24 40 L24 24 L40 24 L40 20 Z" fill="#2d5aa0"/>
+
+  <!-- 右上矢印 -->
+  <path d="M108 20 L108 40 L104 40 L104 24 L88 24 L88 20 Z" fill="#2d5aa0"/>
+
+  <!-- 左下矢印 -->
+  <path d="M20 108 L20 88 L24 88 L24 104 L40 104 L40 108 Z" fill="#2d5aa0"/>
+
+  <!-- 右下矢印 -->
+  <path d="M108 108 L108 88 L104 88 L104 104 L88 104 L88 108 Z" fill="#2d5aa0"/>
+
+  <!-- 中央のフレーム（オプション） -->
+  <rect x="45" y="45" width="38" height="38" fill="none" stroke="#2d5aa0" stroke-width="2" opacity="0.6"/>
+</svg>

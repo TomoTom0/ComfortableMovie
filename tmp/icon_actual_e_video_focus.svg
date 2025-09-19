@@ -1,0 +1,17 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- 実際の操作E: 動画にフォーカス、他を暗く -->
+
+  <!-- 背景（暗くなる部分） -->
+  <rect x="0" y="0" width="128" height="128" fill="#333333" opacity="0.6"/>
+
+  <!-- 明るい動画エリア -->
+  <rect x="20" y="30" width="88" height="68" rx="4" fill="#2d5aa0" stroke="white" stroke-width="2"/>
+
+  <!-- 動画の再生アイコン -->
+  <polygon points="50,50 50,78 78,64" fill="white" opacity="0.9"/>
+
+  <!-- 暗くなった要素（コントロールなど） -->
+  <rect x="10" y="10" width="20" height="8" rx="1" fill="#666666" opacity="0.4"/>
+  <rect x="98" y="10" width="20" height="8" rx="1" fill="#666666" opacity="0.4"/>
+  <rect x="10" y="110" width="108" height="8" rx="1" fill="#666666" opacity="0.4"/>
+</svg>

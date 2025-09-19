@@ -1,0 +1,155 @@
+{
+  "extensionName": {
+    "message": "Comfort Movie"
+  },
+  "extensionDescription": {
+    "message": "为舒适的视频观看提供Chrome扩展。最大化视频并提供智能控制功能，让您专注观看。"
+  },
+  "contextMenuToggle": {
+    "message": "切换舒适视频模式"
+  },
+  "contextMenuVideoToggle": {
+    "message": "🎬 以舒适模式显示此视频"
+  },
+  "optionsTitle": {
+    "message": "选项"
+  },
+  "basicSettings": {
+    "message": "基本设置"
+  },
+  "menuSettings": {
+    "message": "菜单设置"
+  },
+  "siteSettings": {
+    "message": "网站设置"
+  },
+  "displaySettings": {
+    "message": "显示设置"
+  },
+  "shortcuts": {
+    "message": "快捷键"
+  },
+  "hoverDetectionTime": {
+    "message": "悬停检测时间"
+  },
+  "hoverDetectionTimeDesc": {
+    "message": "鼠标悬停在视频底部区域后启用控件的时间"
+  },
+  "controlsDisableTime": {
+    "message": "控件禁用时间"
+  },
+  "controlsDisableTimeDesc": {
+    "message": "离开视频区域后禁用控件的时间"
+  },
+  "showInlineButton": {
+    "message": "在视频播放器中显示按钮"
+  },
+  "showInlineButtonDesc": {
+    "message": "在YouTube、Amazon Prime Video等播放器控件中显示Comfort Movie按钮"
+  },
+  "pausedControlsEnabled": {
+    "message": "视频暂停时始终启用控件"
+  },
+  "pausedControlsEnabledDesc": {
+    "message": "当视频暂停时，立即启用控件而无需悬停检测"
+  },
+  "showContextMenu": {
+    "message": "显示右键菜单"
+  },
+  "showContextMenuDesc": {
+    "message": "右键点击页面或视频时显示Comfort Movie菜单"
+  },
+  "showVideoContextMenu": {
+    "message": "显示视频专用菜单"
+  },
+  "showVideoContextMenuDesc": {
+    "message": "右键点击视频元素时显示专用的舒适模式菜单"
+  },
+  "enabledSites": {
+    "message": "启用的网站"
+  },
+  "enabledSitesDesc": {
+    "message": "选择应启用Comfort Movie的网站"
+  },
+  "enableYoutube": {
+    "message": "YouTube"
+  },
+  "enablePrimeVideo": {
+    "message": "Amazon Prime Video"
+  },
+  "enableAllSites": {
+    "message": "所有网站"
+  },
+  "exitButtonOpacity": {
+    "message": "退出按钮透明度"
+  },
+  "exitButtonOpacityDesc": {
+    "message": "舒适模式下右下角退出按钮的透明度"
+  },
+  "saveButton": {
+    "message": "保存设置"
+  },
+  "resetButton": {
+    "message": "重置为默认"
+  },
+  "version": {
+    "message": "Comfort Movie v1.0.0"
+  },
+  "subtitle": {
+    "message": "为舒适的视频观看提供Chrome扩展"
+  },
+  "shortcutEsc": {
+    "message": "退出舒适模式"
+  },
+  "shortcutRightClick": {
+    "message": "通过右键菜单切换"
+  },
+  "shortcutExtensionIcon": {
+    "message": "通过工具栏图标切换"
+  },
+  "comfortModeTooltip": {
+    "message": "舒适视频模式"
+  },
+  "comfortModeTooltipOn": {
+    "message": "舒适视频模式（开启）"
+  },
+  "comfortModeExitTooltip": {
+    "message": "退出舒适模式"
+  },
+  "settingsSaved": {
+    "message": "设置已保存"
+  },
+  "settingsReset": {
+    "message": "设置已重置为默认"
+  },
+  "settingsLoadError": {
+    "message": "加载设置失败"
+  },
+  "settingsSaveError": {
+    "message": "保存设置失败"
+  },
+  "settingsResetError": {
+    "message": "重置设置失败"
+  },
+  "resetConfirm": {
+    "message": "将设置重置为默认？"
+  },
+  "noVideoFound": {
+    "message": "未找到视频"
+  },
+  "allSites": {
+    "message": "所有网站"
+  },
+  "rightClick": {
+    "message": "右键点击"
+  },
+  "extensionIcon": {
+    "message": "扩展图标"
+  },
+  "secondsUnit": {
+    "message": "秒"
+  },
+  "percentUnit": {
+    "message": "%"
+  }
+}

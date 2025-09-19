@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="optionsTitle">Comfort Movie - 設定</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="logo">
+        <img src="icons/icon48.png" alt="Comfort Movie" class="logo-icon">
+        <h1 data-i18n="extensionName">Comfort Movie</h1>
+      </div>
+      <p class="subtitle" data-i18n="subtitle">快適な動画視聴環境を提供するChrome拡張機能</p>
+    </header>
+
+    <main class="main">
+      <section class="section">
+        <h2 data-i18n="basicSettings">基本設定</h2>
+
+        <div class="setting-item">
+          <label class="setting-label">
+            <span class="label-text" data-i18n="hoverDetectionTime">ホバー検出時間</span>
+            <span class="label-description" data-i18n="hoverDetectionTimeDesc">動画下部にマウスを置いてからコントロールが有効になるまでの時間</span>
+          </label>
+          <div class="input-group">
+            <input type="range" id="hoverTime" min="500" max="5000" step="250" value="2000" class="range-input">
+            <span id="hoverTimeValue" class="input-value">2.0秒</span>
+          </div>
+        </div>
+
+        <div class="setting-item">
+          <label class="setting-label">
+            <span class="label-text" data-i18n="controlsDisableTime">コントロール無効化時間</span>
+            <span class="label-description" data-i18n="controlsDisableTimeDesc">動画から離れてからコントロールが無効になるまでの時間</span>
+          </label>
+          <div class="input-group">
+            <input type="range" id="disableTime" min="1000" max="10000" step="500" value="3000" class="range-input">
+            <span id="disableTimeValue" class="input-value">3.0秒</span>
+          </div>
+        </div>
+
+        <div class="setting-item">
+          <label class="setting-label">
+            <input type="checkbox" id="showInlineButton" checked class="checkbox-input">
+            <span class="label-text" data-i18n="showInlineButton">動画プレーヤー内にボタンを表示</span>
+            <span class="label-description" data-i18n="showInlineButtonDesc">YouTubeやAmazon Prime VideoなどでプレーヤーコントロールにComfort Movieボタンを表示</span>
+          </label>
+        </div>
+
+        <div class="setting-item">
+          <label class="setting-label">
+            <input type="checkbox" id="pausedControlsEnabled" checked class="checkbox-input">
+            <span class="label-text" data-i18n="pausedControlsEnabled">動画停止中は常にコントロール有効</span>
+            <span class="label-description" data-i18n="pausedControlsEnabledDesc">動画が一時停止中の場合、ホバー検出せずに即座にコントロールを有効化</span>
+          </label>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 data-i18n="menuSettings">メニュー設定</h2>
+
+        <div class="setting-item">
+          <label class="setting-label">
+            <input type="checkbox" id="showContextMenu" checked class="checkbox-input">
+            <span class="label-text" data-i18n="showContextMenu">右クリックメニューを表示</span>
+            <span class="label-description" data-i18n="showContextMenuDesc">ページや動画を右クリックした時にComfort Movieのメニューを表示</span>
+          </label>
+        </div>
+
+        <div class="setting-item">
+          <label class="setting-label">
+            <input type="checkbox" id="showVideoContextMenu" checked class="checkbox-input">
+            <span class="label-text" data-i18n="showVideoContextMenu">動画専用メニューを表示</span>
+            <span class="label-description" data-i18n="showVideoContextMenuDesc">video要素を右クリックした時に専用の快適モードメニューを表示</span>
+          </label>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 data-i18n="siteSettings">サイト別設定</h2>
+
+        <div class="setting-item">
+          <label class="setting-label">
+            <span class="label-text" data-i18n="enabledSites">有効なサイト</span>
+            <span class="label-description" data-i18n="enabledSitesDesc">Comfort Movieを有効にするサイトを選択</span>
+          </label>
+          <div class="checkbox-group">
+            <label class="checkbox-label">
+              <input type="checkbox" id="enableYoutube" checked class="checkbox-input">
+              <span>YouTube</span>
+            </label>
+            <label class="checkbox-label">
+              <input type="checkbox" id="enablePrimeVideo" checked class="checkbox-input">
+              <span>Amazon Prime Video</span>
+            </label>
+            <label class="checkbox-label">
+              <input type="checkbox" id="enableAllSites" checked class="checkbox-input">
+              <span data-i18n="allSites">すべてのサイト</span>
+            </label>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 data-i18n="displaySettings">表示設定</h2>
+
+        <div class="setting-item">
+          <label class="setting-label">
+            <span class="label-text" data-i18n="exitButtonOpacity">解除ボタンの透明度</span>
+            <span class="label-description" data-i18n="exitButtonOpacityDesc">快適モード中の右下解除ボタンの透明度</span>
+          </label>
+          <div class="input-group">
+            <input type="range" id="exitButtonOpacity" min="10" max="80" step="10" value="20" class="range-input">
+            <span id="exitButtonOpacityValue" class="input-value">20%</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 data-i18n="shortcuts">ショートカット</h2>
+
+        <div class="setting-item">
+          <div class="shortcut-info">
+            <div class="shortcut-item">
+              <span class="shortcut-key">ESC</span>
+              <span class="shortcut-description" data-i18n="shortcutEsc">快適モードを解除</span>
+            </div>
+            <div class="shortcut-item">
+              <span class="shortcut-key" data-i18n="rightClick">右クリック</span>
+              <span class="shortcut-description" data-i18n="shortcutRightClick">コンテキストメニューから切り替え</span>
+            </div>
+            <div class="shortcut-item">
+              <span class="shortcut-key" data-i18n="extensionIcon">拡張機能アイコン</span>
+              <span class="shortcut-description" data-i18n="shortcutExtensionIcon">ツールバーアイコンから切り替え</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="button-group">
+        <button id="saveButton" class="btn btn-primary" data-i18n="saveButton">設定を保存</button>
+        <button id="resetButton" class="btn btn-secondary" data-i18n="resetButton">デフォルトに戻す</button>
+      </div>
+      <p class="version">Comfort Movie v1.0.0</p>
+    </footer>
+  </div>
+
+  <script src="options.js"></script>
+</body>
+</html>

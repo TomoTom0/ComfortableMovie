@@ -1,0 +1,12 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- シンプルD: ウィンドウ最大化 -->
+
+  <!-- 元のウィンドウ（小さく、点線） -->
+  <rect x="40" y="40" width="48" height="36" fill="none" stroke="#cccccc" stroke-width="2" stroke-dasharray="4,4" opacity="0.5"/>
+
+  <!-- 最大化されたウィンドウ -->
+  <rect x="15" y="25" width="98" height="78" fill="none" stroke="#2d5aa0" stroke-width="3"/>
+
+  <!-- ウィンドウのタイトルバー -->
+  <rect x="15" y="25" width="98" height="12" fill="#2d5aa0" opacity="0.3"/>
+</svg>

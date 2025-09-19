@@ -1,0 +1,19 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- 実際の操作D: 動画の全画面表示（シンプル版） -->
+
+  <!-- 外枠（ブラウザウィンドウ） -->
+  <rect x="5" y="5" width="118" height="118" rx="3" fill="none" stroke="#cccccc" stroke-width="2"/>
+
+  <!-- ブラウザのタイトルバー -->
+  <rect x="5" y="5" width="118" height="15" rx="3" fill="#cccccc" opacity="0.3"/>
+
+  <!-- 元の小さい動画 -->
+  <rect x="30" y="35" width="68" height="45" rx="2" fill="none" stroke="#cccccc" stroke-width="1" opacity="0.4" stroke-dasharray="3,3"/>
+
+  <!-- 拡張後の動画（全画面） -->
+  <rect x="8" y="22" width="112" height="99" rx="2" fill="#2d5aa0" opacity="0.8"/>
+
+  <!-- 動画内容を示すアイコン -->
+  <circle cx="64" cy="72" r="8" fill="white" opacity="0.9"/>
+  <polygon points="60,68 60,76 68,72" fill="#2d5aa0"/>
+</svg>

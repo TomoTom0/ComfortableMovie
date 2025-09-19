@@ -1,0 +1,15 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- シンプルB: 四隅のL字型ブラケット -->
+
+  <!-- 左上 -->
+  <path d="M25 25 L25 45 M25 25 L45 25" stroke="#2d5aa0" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- 右上 -->
+  <path d="M103 25 L103 45 M103 25 L83 25" stroke="#2d5aa0" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- 左下 -->
+  <path d="M25 103 L25 83 M25 103 L45 103" stroke="#2d5aa0" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- 右下 -->
+  <path d="M103 103 L103 83 M103 103 L83 103" stroke="#2d5aa0" stroke-width="4" fill="none" stroke-linecap="round"/>
+</svg>

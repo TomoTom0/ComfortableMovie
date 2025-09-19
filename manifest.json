@@ -1,11 +1,13 @@
 {
   "manifest_version": 3,
-  "name": "Comfort Movie",
+  "name": "__MSG_extensionName__",
   "version": "1.0.0",
-  "description": "快適な動画視聴環境を提供するChrome拡張機能。動画を最大化し、スマートなコントロール機能で集中して視聴できます。",
+  "description": "__MSG_extensionDescription__",
+  "default_locale": "ja",
   "permissions": [
     "activeTab",
-    "contextMenus"
+    "contextMenus",
+    "storage"
   ],
   "background": {
     "service_worker": "background.js"
@@ -25,6 +27,19 @@
     }
   ],
   "action": {
-    "default_title": "Comfort Movie"
-  }
+    "default_title": "Comfort Movie",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "options_page": "options.html"
 }
